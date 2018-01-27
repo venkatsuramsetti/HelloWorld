@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GidBOL
+	xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xmlns='http://schemas.gid.gap.com/orderfinancial/bol/v1'>
+	<MessageHeader>
+		<Version>
+			<MajorVersion>1</MajorVersion>
+			<MinorVersion>0</MinorVersion>
+		</Version>
+		<ClientDetails>
+			<ClientId>GAP</ClientId>
+			<ClientName>XYZ</ClientName>
+			<RequestId>XYZ</RequestId>
+			<RequestedTimeStamp>2001-12-17T09:30:47-05:00</RequestedTimeStamp>
+		</ClientDetails>
+	</MessageHeader>
+	<Shipment>
+		<BolNumber>HMAJGDIYK12</BolNumber>
+		<CarrierServiceCode>STANDARD</CarrierServiceCode>
+		<EnterpriseCode>GOL</EnterpriseCode>
+		<OrderNumber>TTTY4JK</OrderNumber>
+		<ReleaseID>GQQQ9HLQP</ReleaseID>
+		<ShipNode>OFC</ShipNode>
+		<ShipmentDate>2016-08-25T01:31:48-0400</ShipmentDate>
+		<ShipmentHasGiftCard>false</ShipmentHasGiftCard>
+		<ShipmentNumber>IVSZWOPUD12</ShipmentNumber>
+		<ShippingCarrier>FedEx</ShippingCarrier>
+		<SpecialServiceCode>SIGNREQ</SpecialServiceCode>
+		<TrailerNumber>12345</TrailerNumber>
+		<Containers>
+			<Container>
+				<ContainerID>GQQQ9HLQP2</ContainerID>
+				<ContainerScm>000000001234567</ContainerScm>
+				<FreightCharge>5.00</FreightCharge>
+				<GrossWeight>1.2</GrossWeight>
+				<GrossWeightUOM>LB</GrossWeightUOM>
+				<NetWeight>1.0</NetWeight>
+				<NetWeightUOM>LB</NetWeightUOM>
+				<TrackingNumber>22222222222221</TrackingNumber>
+				<ShipmentLines>
+					<ShipmentLine>
+						<ItemID>3298370620002</ItemID>
+						<Quantity>6</Quantity>
+						<ShipmentLineNumber>1</ShipmentLineNumber>
+					</ShipmentLine>
+					<ShipmentLine>
+						<ItemID>3298370620002</ItemID>
+						<Quantity>4</Quantity>
+						<ShipmentLineNumber>2</ShipmentLineNumber>
+					</ShipmentLine>
+					
+					<ShipmentLine>
+						<ItemID>3298370620002</ItemID>
+						<Quantity>3</Quantity>
+						<ShipmentLineNumber>3</ShipmentLineNumber>
+					</ShipmentLine>
+					
+					<ShipmentLine>
+						<ItemID>3298370620002</ItemID>
+						<Quantity>3</Quantity>
+						<ShipmentLineNumber>4</ShipmentLineNumber>
+					</ShipmentLine>
+					
+					<ShipmentLine>
+						<ItemID>3298370620002</ItemID>
+						<Quantity>1</Quantity>
+						<ShipmentLineNumber>5</ShipmentLineNumber>
+					</ShipmentLine>
+					
+					<ShipmentLine>
+						<ItemID>3298370620002</ItemID>
+						<Quantity>1</Quantity>
+						<ShipmentLineNumber>6</ShipmentLineNumber>
+					</ShipmentLine>
+					
+					<ShipmentLine>
+						<ItemID>2099450820001</ItemID>
+						<Quantity>1</Quantity>
+						<ShipmentLineNumber>17</ShipmentLineNumber>
+					</ShipmentLine>
+					
+					<ShipmentLine>
+						<ItemID>2225270120001</ItemID>
+						<Quantity>1</Quantity>
+						<ShipmentLineNumber>18</ShipmentLineNumber>
+					</ShipmentLine>
+				</ShipmentLines>
+			</Container>
+		</Containers>
+	</Shipment>
+</GidBOL>
